@@ -17,6 +17,7 @@ Router.events.on("routeChangeStart", (url) => {
     document.getElementById("page-transition")
   );
 });
+
 Router.events.on("routeChangeComplete", () => {
   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
   document.body.classList.remove("body-page-transition");
@@ -25,6 +26,8 @@ Router.events.on("routeChangeError", () => {
   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
   document.body.classList.remove("body-page-transition");
 });
+
+export const config = { amp: false }
 
 export default class MyApp extends App {
   componentDidMount() {
@@ -44,7 +47,7 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
 
-    const Layout = Component.layout || (({ children }) => <>{children}</>);
+    const Layout = Component.layout || (({ children }) => <React.Fragment>{children}</React.Fragment>);
 
     return (
       <React.Fragment>
