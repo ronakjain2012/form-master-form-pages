@@ -67,7 +67,15 @@ export default function Footer() {
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
-                    <li>
+                  <li>
+                      <Link
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="/"
+                      >
+                        Home
+                      </Link>
+                    </li>  
+                  <li>
                       <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://ronakjain2012.netlify.app/?utm_source=social&utm_medium=posts&utm_campaign=personal"
