@@ -23,18 +23,18 @@ export default function Index() {
                 Simply unlimited submissions, unlimited forms ❤️
               </p>
               <p>
-                Form Builder is coming soon...
+                Stay tuned for our upcoming Form Builder feature, empowering you to create customized forms effortlessly!
               </p>
               <div className="mt-12">
                 <Link
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
+                  href="/contact-us"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Contact
                 </Link>
                 <Link
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
+                  href="/contact-us"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -239,13 +239,13 @@ export default function Index() {
         </div>
 
         <div className="justify-center text-center flex flex-wrap mt-24">
-        <div className="w-full md:w-6/12 px-12 md:px-4">
-          <h2 className="font-semibold text-4xl">Beautiful & Simple Pages</h2>
-          <p className="text-lg leading-relaxed mt-4 mb-24 text-blueGray-500">
-          Whether your nonprofit is large or small, Form Master online Form Builder helps your organization help others. It takes just a few minutes to create and publish your forms online. As an exclusive benefit, we offer it free forever!
-          </p>
+          <div className="w-full md:w-6/12 px-12 md:px-4">
+            <h2 className="font-semibold text-4xl">Beautiful & Simple Forms</h2>
+            <p className="text-lg leading-relaxed mt-4 mb-24 text-blueGray-500">
+              Whether your nonprofit is large or small, Form Master online Form Builder helps your organization help others. It takes just a few minutes to create and publish your forms online. As an exclusive benefit, we offer it free forever!
+            </p>
+          </div>
         </div>
-      </div>
 
       </section>
 

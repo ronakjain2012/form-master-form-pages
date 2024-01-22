@@ -86,7 +86,7 @@ export default function Footer() {
                     <li>
                       <Link
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nnjs-footer"
+                        href="/contact-us"
                       >
                         Contact Us
                       </Link>
